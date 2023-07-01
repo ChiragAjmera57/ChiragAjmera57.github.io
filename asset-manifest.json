@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.c43e1c9d.js",
+    "main.css": "/static/css/main.03da4c64.css",
+    "main.js": "/static/js/main.8db47be5.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/bewkoofimg.png": "/static/media/bewkoofimg.05a8607e04fed483c32c.png",
+    "static/media/healthcare.png": "/static/media/healthcare.2968c7aa5e1a80fb2603.png",
+    "static/media/youtube.png": "/static/media/youtube.33ee9e88e61d3254dc89.png",
+    "static/media/profile.png": "/static/media/profile.f76f8c8bd93b81b82c9f.png",
     "static/media/resume.pdf": "/static/media/resume.ffc072caf41dad699ab1.pdf",
-    "static/media/profile.jpg": "/static/media/profile.0898e38f99424cb011fd.jpg",
+    "static/media/portfolio.png": "/static/media/portfolio.55afc54db95cdc681eb4.png",
+    "static/media/formweb.png": "/static/media/formweb.b80efa278e3cff60caf2.png",
+    "static/media/8.png": "/static/media/8.85df73ba84be77959c4b.png",
+    "static/media/11.png": "/static/media/11.24c2fc7ac6311170d07e.png",
+    "static/media/chiragimg.otf": "/static/media/chiragimg.d5292de74bba42b8d98b.otf",
+    "static/media/manpic.svg": "/static/media/manpic.76dfaebb42b1fc4676c11e19922c3d53.svg",
+    "static/media/5.png": "/static/media/5.5a9c5274e84215aca629.png",
+    "static/media/12.webp": "/static/media/12.4e97577b981eca678bfe.webp",
+    "static/media/profilelogo.svg": "/static/media/profilelogo.0c6888d72983ea243e767f7595a50dd7.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.c43e1c9d.js.map": "/static/js/main.c43e1c9d.js.map",
+    "main.03da4c64.css.map": "/static/css/main.03da4c64.css.map",
+    "main.8db47be5.js.map": "/static/js/main.8db47be5.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c43e1c9d.js"
+    "static/css/main.03da4c64.css",
+    "static/js/main.8db47be5.js"
   ]
 }
