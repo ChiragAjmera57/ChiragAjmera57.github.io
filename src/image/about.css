@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans&display=swap');
+/* :root{
+    --chirag:url('../image/linke.png');
+    display: block;
+} */
+*{
+    background-color: black;
+    transition: all;
+    transition-duration: 0.2s;
+    font-family: 'Work Sans', sans-serif;
+}
+.logoimg{
+    width: 5rem;
+}
+/* 
+#forline::before{
+    content: var(--chirag);
+    display: block;
+    z-index: -1;
+    
+} */

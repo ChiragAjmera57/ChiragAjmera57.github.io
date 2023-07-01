@@ -1,0 +1,55 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans&display=swap');
+
+
+*{
+    background-color: black;
+    transition: all;
+    transition-duration: 0.2s;
+}
+#changable{
+    font-family: 'Playfair Display', serif;
+}
+#homepara{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color:rgb(136, 135, 135);
+    line-height: 1.75rem;
+    
+}
+#buildhead{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+#resume-btn{
+    color: white;
+   
+    padding: 13px 32px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #0E7490;
+    border: none;
+}
+
+#resume-btn:hover{
+    background-color: rgb(110, 83, 65);
+}
+#manpic{
+    height: 450px;
+   
+    filter: drop-shadow(4px 4px 18px rgb(132, 180, 235));
+   
+   background-color: transparent;
+}
+#manpic:hover{
+    filter: drop-shadow(4px 4px 10px rgb(132, 180, 235));
+}
+
+#imgbox{
+    display: flex;
+    justify-content: center;
+}

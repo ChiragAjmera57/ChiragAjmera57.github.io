@@ -1,0 +1,13 @@
+@font-face {
+    font-family: chirag;
+    src: url('./chiragimg.otf');
+}
+#fontlogo{
+margin-left: 8vw;
+font-family: chirag;
+color: white;
+padding: 0px 15px;
+font-size: 55px;
+opacity: 0.6;
+border-right: 2px solid rgb(165, 165, 165);
+}
