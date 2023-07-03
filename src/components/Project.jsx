@@ -6,10 +6,11 @@ import formweb from '../image/formweb.png'
 import youtube from '../image/youtube.png'
 import heathcare from '../image/healthcare.png'
 import portfoio from '../image/portfolio.png'
+import '../image/project.css'
 
 export default function Project() {
   return (
-    <div id="projects"  style={{ margin: "5vh 9% 0 9%"}}>
+    <div id="projects" >
         {/* <hr />
         <div className="project-card">
             <img src="" alt="projectimg" />
@@ -62,7 +63,7 @@ export default function Project() {
         <hr />
        
         <hr /> */}
-    <Box w="100%" mt={20} mb={12} display="flex" justifyContent="center" id="about1">
+    <Box w="100%" mt={20} mb={12} display="flex" justifyContent="center" id="project1">
           <Text
           id="forline"
             letterSpacing={-2}
@@ -74,8 +75,8 @@ export default function Project() {
             Projects
           </Text>
         </Box>
-    <Box w="90vw" display="flex" justifyContent="space-between">
-        <SimpleGrid columns={3} spacing="10">
+    <Box w="100vw" display="flex" justifyContent="space-around">
+        <SimpleGrid id='project-item' columns={3} spacing="10">
           <div data-aos="zoom-in-left"><Card2 url={bewkoof} title={"Bewakoof.com"} des={"In our first ever project we tried to clone a famous clothing E-Commerce website firmly known as 'Bewakoof.com'"} gitlink={"https://github.com/ManojSharma1122/Bewakoof"} depllink={"https://relaxed-profiterole-506b95.netlify.app/index.html"}  /></div>
           <div data-aos="zoom-in-left"><Card2 url={formweb} title={"House Rent"} des={"It is a simple house rent website which it made in one of masai evaluation you and also add new house on rent"} gitlink={"https://github.com/ManojSharma1122/Bewakoof"} depllink={"https://relaxed-profiterole-506b95.netlify.app/index.html"}   /></div>
           <div data-aos="zoom-in-left"><Card2 url={youtube} title={"Youtube Search"} des={"It usage youtube api to fetch data and display simple html and css with some line of js code lead to this project"} gitlink={"https://github.com/masai-course/chirag_ajmera_pw12_059/tree/master/unit-5/sprint-2/day-5/assignment"} depllink={"https://velvety-bonbon-b84a70.netlify.app/"}   /></div>

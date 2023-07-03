@@ -23,7 +23,7 @@ import '../image/footer.css'
 export default function Contact() {
   return (
     <>
-    <div id="contact" style={{ margin: "5vh 9% 0 9%",height:"80vh" }}>
+    <div id="contact">
       {/* <a href="https://github.com/ChiragAjmera57" id="contact-github">GitHub profile link</a>
         <a href="https://www.linkedin.com/in/chirag-ajmera-08467425b/"  id="contact-linkedin">LinkedIn profile</a>
         <p  id="contact-phone">8949930815</p>
@@ -53,7 +53,7 @@ export default function Contact() {
         textColor="#838383"
         textAlign="center"
         spacing={55}
-       
+        id='contact-item'
         justifyContent="center"
       >
         <Box display="flex" flexDirection="column">
@@ -111,8 +111,8 @@ export default function Contact() {
           </a>
         </Box>
       </HStack>
-      <Box  w="75vw" mt={70}>
-        <Grid gap={5} templateColumns="repeat(2, 1fr)">
+      <Box  w="75vw" id="form-input-box" mt={70}>
+        <Grid gap={5} id='form-inputs' templateColumns="repeat(2, 1fr)">
           <GridItem rowSpan={2}>
             <Box id="left"  >
               <Stack spacing={5}>
@@ -133,17 +133,19 @@ export default function Contact() {
          <a href="" id="resume-btn">Submit</a>
          </Box>
     </div>
+
+
+
     <Box id="footer" display="flex"  alignItems="center" h="20vh" bgColor="rgb(19 20 25)">
     <a id="fontlogo" href="">C</a>
-    <Box bgColor="rgb(19 20 25)" display="flex" justifyContent="space-around" w="7%" >
+    <Box bgColor="rgb(19 20 25)" id="footer-social" display="flex" justifyContent="space-around" w="7%" >
       <a href=""><AiOutlineInstagram  color="white" size={20} opacity={0.6}  /></a>
       <a href=""><AiFillGithub color="white" size={20} opacity={0.6}/></a>
       <a href=""><AiOutlineLinkedin color="white" size={20} opacity={0.6}/></a>
-        
-        
     </Box>
-    <Box width="22%" color="white" ml="46.5vw" bg="rgb(19 20 25)" >
-      <Text  bg="rgb(19 20 25)">Thank you for visiting my personal portfolio website.</Text>
+
+    <Box width="22%" color="white" id="footer-para-box" ml="46.5vw" bg="rgb(19 20 25)" >
+      <Text  bg="rgb(19 20 25)" textAlign='right' id="footer-para">Thank you for visiting!</Text>
     </Box>
     </Box>
 

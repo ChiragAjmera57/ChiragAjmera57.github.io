@@ -15,12 +15,14 @@ import img13 from '../skill-img/10.png'
 import img14 from '../skill-img/11.png'
 import img15 from '../skill-img/12.webp'
 import resume from '../image/resume.pdf'
+import { Link } from "react-scroll";
 
 
 export default function About() {
+  let arrow = '<';
   return (
     <>
-      <div id="about" style={{ margin: "5vh 9% 0 9%", height: "90vh"  }}>
+      <div id="about">
         <Box w="100%" display="flex" justifyContent="center" id="about1">
           <Text
           id="forline"
@@ -29,7 +31,7 @@ export default function About() {
             bgClip="text"
             fontSize="6xl"
             fontWeight="900"
-          >
+          > 
             About
           </Text>
         </Box>
@@ -64,14 +66,14 @@ export default function About() {
               color="rgb(136, 135, 135);"
               letterSpacing="-0.5px"
               w="70%"
-              id="homepara"
+              id="about-para"
               fontSize="lg"
             >
               Full Stack Web Developer loves to build idea into reality through
               code. Believe in continuous learning and growth. Always ready to
               take initiative....
             </Text>
-            <Box p="90px 0px 0px 0px">
+            <Box id='resume-about-box' p="90px 0px 0px 0px">
               <a href={resume} target="_blank" id="resume-btn">
                 Resume
               </a>
@@ -82,7 +84,7 @@ export default function About() {
       <Box data-aos="fade-up"
     
       data-aos-duration="500"
-    data-aos-offset="100" h="20vh" w="90%"  m="auto"  display="flex" justifyContent="space-around" alignItems="center">
+    data-aos-offset="100" h="20vh" w="90%"  m="auto" mt='5vh' id="skill-logo" display="flex" justifyContent="space-around" alignItems="center">
         <div  >
           <Image className="logoimg" src={img4}  />
         </div>
@@ -120,6 +122,8 @@ export default function About() {
       </Box>
 
       
+      <Link to="home" spy={true} id='click-above' smooth={true} offset={-150} duration={500} background='yellow' > {arrow}</Link>
+
     </>
   );
 }
