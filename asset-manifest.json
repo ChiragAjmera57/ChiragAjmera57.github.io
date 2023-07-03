@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.03da4c64.css",
-    "main.js": "/static/js/main.6c941a4e.js",
+    "main.css": "/static/css/main.2a37cf6b.css",
+    "main.js": "/static/js/main.29f8e8b7.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/bewkoofimg.png": "/static/media/bewkoofimg.05a8607e04fed483c32c.png",
     "static/media/healthcare.png": "/static/media/healthcare.2968c7aa5e1a80fb2603.png",
@@ -18,12 +18,12 @@
     "static/media/12.webp": "/static/media/12.4e97577b981eca678bfe.webp",
     "static/media/profilelogo.svg": "/static/media/profilelogo.0c6888d72983ea243e767f7595a50dd7.svg",
     "index.html": "/index.html",
-    "main.03da4c64.css.map": "/static/css/main.03da4c64.css.map",
-    "main.6c941a4e.js.map": "/static/js/main.6c941a4e.js.map",
+    "main.2a37cf6b.css.map": "/static/css/main.2a37cf6b.css.map",
+    "main.29f8e8b7.js.map": "/static/js/main.29f8e8b7.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03da4c64.css",
-    "static/js/main.6c941a4e.js"
+    "static/css/main.2a37cf6b.css",
+    "static/js/main.29f8e8b7.js"
   ]
 }
