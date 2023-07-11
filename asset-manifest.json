@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2a37cf6b.css",
-    "main.js": "/static/js/main.29f8e8b7.js",
+    "main.js": "/static/js/main.c5c7f869.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/movix.png": "/static/media/movix.90765fe47232a88ae8c6.png",
     "static/media/bewkoofimg.png": "/static/media/bewkoofimg.05a8607e04fed483c32c.png",
     "static/media/healthcare.png": "/static/media/healthcare.2968c7aa5e1a80fb2603.png",
     "static/media/youtube.png": "/static/media/youtube.33ee9e88e61d3254dc89.png",
@@ -16,14 +17,14 @@
     "static/media/manpic.svg": "/static/media/manpic.76dfaebb42b1fc4676c11e19922c3d53.svg",
     "static/media/5.png": "/static/media/5.5a9c5274e84215aca629.png",
     "static/media/12.webp": "/static/media/12.4e97577b981eca678bfe.webp",
-    "static/media/profilelogo.svg": "/static/media/profilelogo.0c6888d72983ea243e767f7595a50dd7.svg",
+    "static/media/profilelogo.svg": "/static/media/profilelogo.ffe299b5cb67e2571df522726855c4b3.svg",
     "index.html": "/index.html",
     "main.2a37cf6b.css.map": "/static/css/main.2a37cf6b.css.map",
-    "main.29f8e8b7.js.map": "/static/js/main.29f8e8b7.js.map",
+    "main.c5c7f869.js.map": "/static/js/main.c5c7f869.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a37cf6b.css",
-    "static/js/main.29f8e8b7.js"
+    "static/js/main.c5c7f869.js"
   ]
 }
