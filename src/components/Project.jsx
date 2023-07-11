@@ -6,6 +6,7 @@ import formweb from '../image/formweb.png'
 import youtube from '../image/youtube.png'
 import heathcare from '../image/healthcare.png'
 import portfoio from '../image/portfolio.png'
+import movix from '../image/movix.png'
 import '../image/project.css'
 
 export default function Project() {
@@ -82,7 +83,7 @@ export default function Project() {
           <div data-aos="zoom-in-left"><Card2 url={youtube} title={"Youtube Search"} des={"It usage youtube api to fetch data and display simple html and css with some line of js code lead to this project"} gitlink={"https://github.com/masai-course/chirag_ajmera_pw12_059/tree/master/unit-5/sprint-2/day-5/assignment"} depllink={"https://velvety-bonbon-b84a70.netlify.app/"}   /></div>
           <div data-aos="zoom-in-left"><Card2 url={heathcare} title={"Health Care Site"} des={"Made this website with our own api and it has a bunch of sorting and filteration with wide range of data"} gitlink={"https://github.com/anuragbhardwaj21/HealthCare"} depllink={"https://github.com/anuragbhardwaj21/HealthCare"}   /></div>
           <div data-aos="zoom-in-left"><Card2 url={portfoio} title={"Portfolio"} des={"This is my portfolio your are currently viewing made this using cool css and npm packages like react scroll and chakra ui"} gitlink={"https://github.com/anuragbhardwaj21/HealthCare"} depllink={"https://github.com/anuragbhardwaj21/HealthCare"}   /></div>
-          <div data-aos="zoom-in-left"><Card2 url={portfoio} title={"Coming Soon.."} des={"This is a new project i am working on and giving more emphasis on backend and user security and authentication"} gitlink={""} depllink={""}   /></div>
+          <div data-aos="zoom-in-left"><Card2 url={movix} title={"Movie Database Website"} des={"React based movie database website where you can find data related to movie Techstack used:- React,Redux,React Route dom,TMDB api"} gitlink={"https://github.com/ChiragAjmera57/Movie_Flex"} depllink={"https://movie-flex-inky.vercel.app/"}   /></div>
         
        
         </SimpleGrid>
