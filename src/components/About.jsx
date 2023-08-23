@@ -14,7 +14,7 @@ import img12 from '../skill-img/9.png'
 import img13 from '../skill-img/10.png'
 import img14 from '../skill-img/11.png'
 import img15 from '../skill-img/12.webp'
-import resume from '../image/resume.pdf'
+import resume from '../image/Chirag-Ajmera-Resume.pdf'
 import { Link } from "react-scroll";
 
 

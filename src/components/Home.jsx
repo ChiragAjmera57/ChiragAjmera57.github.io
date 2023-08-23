@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import resume from '../image/resume.pdf'
+import resume from '../image/Chirag-Ajmera-Resume.pdf'
 import { Box, Card, Flex, Heading, Text,Button } from "@chakra-ui/react";
 import '../image/Home.css'
 import { color } from "framer-motion";

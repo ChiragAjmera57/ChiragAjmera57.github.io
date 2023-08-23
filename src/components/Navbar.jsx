@@ -2,7 +2,8 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-scroll'
-import resume from '../image/resume.pdf'
+import resume from '../image/Chirag-Ajmera-Resume.pdf'
+ 
 
 import profilelogo from '../image/profilelogo.svg'
 
