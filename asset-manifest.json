@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.2a37cf6b.css",
-    "main.js": "/static/js/main.509d0bae.js",
+    "main.js": "/static/js/main.0d770e75.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/movix.png": "/static/media/movix.90765fe47232a88ae8c6.png",
     "static/media/bewkoofimg.png": "/static/media/bewkoofimg.05a8607e04fed483c32c.png",
     "static/media/healthcare.png": "/static/media/healthcare.2968c7aa5e1a80fb2603.png",
     "static/media/youtube.png": "/static/media/youtube.33ee9e88e61d3254dc89.png",
+    "static/media/Chirag-Ajmera-Resume.pdf": "/static/media/Chirag-Ajmera-Resume.db386ca22d03c5009d9b.pdf",
     "static/media/profile.png": "/static/media/profile.f76f8c8bd93b81b82c9f.png",
     "static/media/portfolio.png": "/static/media/portfolio.55afc54db95cdc681eb4.png",
-    "static/media/Chirag-Ajmera-Resume.pdf": "/static/media/Chirag-Ajmera-Resume.778a125bb39db3052e26.pdf",
     "static/media/formweb.png": "/static/media/formweb.b80efa278e3cff60caf2.png",
     "static/media/8.png": "/static/media/8.85df73ba84be77959c4b.png",
     "static/media/11.png": "/static/media/11.24c2fc7ac6311170d07e.png",
@@ -20,11 +20,11 @@
     "static/media/profilelogo.svg": "/static/media/profilelogo.ffe299b5cb67e2571df522726855c4b3.svg",
     "index.html": "/index.html",
     "main.2a37cf6b.css.map": "/static/css/main.2a37cf6b.css.map",
-    "main.509d0bae.js.map": "/static/js/main.509d0bae.js.map",
+    "main.0d770e75.js.map": "/static/js/main.0d770e75.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a37cf6b.css",
-    "static/js/main.509d0bae.js"
+    "static/js/main.0d770e75.js"
   ]
 }
