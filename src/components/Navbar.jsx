@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href={resume} target="_blank" >Resume</a>
+                        <a href={resume} download="Chirag-Ajmera-Resume" target="_blank" >Resume</a>
                     </li>
                 </ul>
             </nav>

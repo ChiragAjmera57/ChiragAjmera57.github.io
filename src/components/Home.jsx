@@ -46,7 +46,7 @@ export default function () {
           <Text letterSpacing="-0.5px" w="80%" id="home-para" fontSize='lg'>Remember, every ‘mistake’ your customer makes, it’s not because they’re stupid. It’s because your website sucks.</Text>
           </Box>
          <Box id="resume-btn-box" p="50px 0px 0px 0px">
-         <a  href={resume} target="_blank"  id="resume-btn">Resume</a>
+         <a  href={resume} download="Chirag-Ajmera-Resume" target="_blank"  id="resume-btn">Resume</a>
          </Box>
         </Box>
         <Box data-aos="zoom-in-left" id="imgbox" w="45%" h="60vh" >

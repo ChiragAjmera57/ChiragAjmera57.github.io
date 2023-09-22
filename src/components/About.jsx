@@ -74,7 +74,7 @@ export default function About() {
               take initiative....
             </Text>
             <Box id='resume-about-box' p="90px 0px 0px 0px">
-              <a href={resume} target="_blank" id="resume-btn">
+              <a href={resume} download="Chirag-Ajmera-Resume" target="_blank" id="resume-btn">
                 Resume
               </a>
             </Box>
