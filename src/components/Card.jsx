@@ -23,6 +23,7 @@ export default function Card2({url,title,des,gitlink,depllink}) {
         />
         <Stack mt="6" spacing="3">
           <Heading m="auto" color="white" size="md">{title}</Heading>
+          <Text textAlign={"center"} color={"#908d8d"}>React || Axios || Json-Server</Text>
           <Text textAlign="center" color="#4b4b4b">
            {des}
           </Text>

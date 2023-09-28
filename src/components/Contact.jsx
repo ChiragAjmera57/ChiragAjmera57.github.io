@@ -17,6 +17,7 @@ import { GoLocation } from "react-icons/go";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import { FiGithub } from "react-icons/fi";
 import profilelogo from '../image/profilelogo.svg' 
 import '../image/footer.css'
 
@@ -96,18 +97,19 @@ export default function Contact() {
         </Box>
         <Box display="flex" flexDirection="column" textAlign="center">
           <div style={{ margin: "auto" }} className="imges">
-            <GoLocation size={50} color="white" opacity="0.8" />
+            <FiGithub size={50} color="white" opacity="0.8" />
           </div>
           <div className="title">
-            <h2>Location</h2>
+            <h2>Github</h2>
           </div>
-          <div className="para">Bhilwara,Rajshthan</div>
+          <div className="para">Connect me through Github</div>
           <a
             style={{ color: "#9f9fff" }}
             target="_blank"
-            href="https://goo.gl/maps/5hmA5hCGBTdb8o7r7"
+            href="https://github.com/ChiragAjmera57"
+           
           >
-            View on map
+           Chirag Ajmera
           </a>
         </Box>
       </HStack>
@@ -140,7 +142,7 @@ export default function Contact() {
     <a id="fontlogo" href="">C</a>
     <Box bgColor="rgb(19 20 25)" id="footer-social" display="flex" justifyContent="space-around" w="7%" >
       <a href="https://www.instagram.com/chiragajmera24/" target="_blank"><AiOutlineInstagram  color="white" size={30} opacity={0.6}  /></a>
-      <a href="https://github.com/ChiragAjmera57" target="_blank"><AiFillGithub color="white" size={30} opacity={0.6}/></a>
+      <a  href="https://goo.gl/maps/5hmA5hCGBTdb8o7r7" target="_blank"><GoLocation color="white" size={30} opacity={0.6}/></a>
       <a href="https://www.linkedin.com/in/chirag-ajmera-08467425b/" target="_blank"><AiOutlineLinkedin color="white" size={30} opacity={0.6}/></a>
     </Box>
 
