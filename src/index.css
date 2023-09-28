@@ -32,7 +32,8 @@ code {
 }
 
 @media screen and (max-width: 740px) {
-  .logo-item {
-    display: none;
+  #skill-logo{
+    flex-wrap: wrap;
   }
-}
+  
+} 

@@ -82,59 +82,7 @@ export default function About() {
           </Box>
         </Box>
       </div>
-      <Box color={"white"} textAlign={"Center"} data-aos="fade-up"
-    
-      data-aos-duration="500"
-    data-aos-offset="100" h="20vh" w="90%"  m="auto" mt='5vh' id="skill-logo" display="flex" justifyContent="space-around" alignItems="center">
-      <div className="logo-container">
-        
-      </div>
-        <div className="logo-item"  >
-          <Image className="logoimg" src={img4}  />
-          <span className="logo-name">HTML</span>
-        </div>
-        <div className="logo-item" >
-          <Image className="logoimg" src={img5}  />
-          <span className="logo-name">CSS</span>
-        </div>
-        <div  >
-          <Image className="logoimg" src={img6} />
-          <span className="logo-name">Javascript</span>
-        </div>
-        <div  >
-          <Image className="logoimg" src={img7} />
-          <span className="logo-name">React</span>
-        </div>
-        <div  >
-          <Image className="logoimg" src={img8} />
-          <span className="logo-name">Redux</span>
-        </div>
-        <div className="logo-item" >
-          <Image className="logoimg" src={img9} />
-          <span className="logo-name">Chakra UI</span>
-        </div>
-        <div  >
-          <Image className="logoimg" src={img10} />
-          <span className="logo-name">Git</span>
-        </div>
-        
-        <div className="logo-item" >
-          <Image className="logoimg" src={img12} />
-          <span className="logo-name">GitHub</span>
-        </div>
-        <div className="logo-item" >
-          <Image className="logoimg" src={img13} />
-          <span className="logo-name">Java</span>
-        </div>
-        <div className="logo-item" >
-          <Image className="logoimg" src={img14} />
-          <span className="logo-name">MongoDB</span>
-        </div>
-        <div  >
-          <Image className="logoimg" src={img15} />
-          <span className="logo-name">NodeJs</span>
-        </div>
-      </Box>
+      
 
       
       <Link to="home" spy={true} id='click-above' smooth={true} offset={-150} duration={500} background='yellow' > {arrow}</Link>
