@@ -8,12 +8,14 @@ import resume from '../image/Chirag-Ajmera-Resume.pdf'
 import profilelogo from '../image/profilelogo.svg'
 
 import './nav.css'
+import { todrive } from './todrive'
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
     const closeMenu = () => setClick(false)
+     
 
     return (
         <div className='header'>
@@ -39,8 +41,8 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
-                    <li className='nav-item'>
-                        <a href={resume} download="Chirag-Ajmera-Resume" target="_blank" >Resume</a>
+                    <li className='nav-item' >
+                        <a href={resume} onClick={()=>todrive()} download="Chirag-Ajmera-Resume" target="_blank" >Resume</a>
                     </li>
                 </ul>
             </nav>

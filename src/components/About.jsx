@@ -1,6 +1,6 @@
 import React from "react";
 import "../image/about.css";
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Center, Image, Text } from "@chakra-ui/react";
 import img3 from "../image/profile.png";
 import img4 from '../skill-img/1.png'
 import img5 from '../skill-img/2.png'
@@ -16,6 +16,7 @@ import img14 from '../skill-img/11.png'
 import img15 from '../skill-img/12.webp'
 import resume from '../image/Chirag-Ajmera-Resume.pdf'
 import { Link } from "react-scroll";
+import { todrive } from "./todrive";
 
 
 export default function About() {
@@ -73,7 +74,7 @@ export default function About() {
               code. Believe in continuous learning and growth. Always ready to
               take initiative....
             </Text>
-            <Box id='resume-about-box' p="90px 0px 0px 0px">
+            <Box id='resume-about-box' onClick={()=>todrive()}  p="90px 0px 0px 0px">
               <a href={resume} download="Chirag-Ajmera-Resume" target="_blank" id="resume-btn">
                 Resume
               </a>
@@ -81,43 +82,57 @@ export default function About() {
           </Box>
         </Box>
       </div>
-      <Box data-aos="fade-up"
+      <Box color={"white"} textAlign={"Center"} data-aos="fade-up"
     
       data-aos-duration="500"
     data-aos-offset="100" h="20vh" w="90%"  m="auto" mt='5vh' id="skill-logo" display="flex" justifyContent="space-around" alignItems="center">
-        <div  >
+      <div className="logo-container">
+        
+      </div>
+        <div className="logo-item"  >
           <Image className="logoimg" src={img4}  />
+          <span className="logo-name">HTML</span>
         </div>
-        <div >
+        <div className="logo-item" >
           <Image className="logoimg" src={img5}  />
+          <span className="logo-name">CSS</span>
         </div>
-        <div >
+        <div  >
           <Image className="logoimg" src={img6} />
+          <span className="logo-name">Javascript</span>
         </div>
-        <div >
+        <div  >
           <Image className="logoimg" src={img7} />
+          <span className="logo-name">React</span>
         </div>
-        <div >
+        <div  >
           <Image className="logoimg" src={img8} />
+          <span className="logo-name">Redux</span>
         </div>
-        <div >
+        <div className="logo-item" >
           <Image className="logoimg" src={img9} />
+          <span className="logo-name">Chakra UI</span>
         </div>
-        <div >
+        <div  >
           <Image className="logoimg" src={img10} />
+          <span className="logo-name">Git</span>
         </div>
         
-        <div >
+        <div className="logo-item" >
           <Image className="logoimg" src={img12} />
+          <span className="logo-name">GitHub</span>
         </div>
-        <div >
+        <div className="logo-item" >
           <Image className="logoimg" src={img13} />
+          <span className="logo-name">Java</span>
         </div>
-        <div >
+        <div className="logo-item" >
           <Image className="logoimg" src={img14} />
+          <span className="logo-name">MongoDB</span>
         </div>
-        <div >
+        <div  >
           <Image className="logoimg" src={img15} />
+          <span className="logo-name">NodeJs</span>
         </div>
       </Box>
 
