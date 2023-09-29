@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Project from './Project'
 import Contact from './Contact'
 import Stats from './Stats'
+import { Tools } from './Tools'
 
 export default function Dashboard() {
   
@@ -16,6 +17,7 @@ export default function Dashboard() {
     <Home />
     <About />
     <Skills />
+    <Tools />
     <Project/>
     <Stats />
     <Contact />
